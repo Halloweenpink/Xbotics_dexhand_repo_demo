@@ -15,7 +15,7 @@
 *注：这里写你的项目所面向的受众，本项目能给他们带来什么，对他们的基础能力要求有哪些*
 
 ## 在线阅读
-https://datawhalechina.github.io/repo-template
+https://Halloweenpink.github.io/Xbotics_dexhand_repo_demo
 
 ## 目录
 *这里写你的项目目录，及其完成状态，已完成的部分添加上跳转链接*
@@ -26,6 +26,9 @@ https://datawhalechina.github.io/repo-template
 | [第2章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2)  | xxx | ✅ |
 | [第3章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3)  | xxx | ✅ |
 | 第4章  | xxx | 🚧 |
+| [第7章 学习方案](https://github.com/datawhalechina/repo-template/tree/main/docs/chapter7) | 从基础到 UniDexGrasp + Isaac Lab | ✅ |
+| &nbsp;&nbsp;&nbsp;&nbsp;[7.1 基础入门月（第 1–4 周）](https://github.com/datawhalechina/repo-template/tree/main/docs/chapter7/chapter7_1) | 第 1–4 周基础夯实 | ✅ |
+| &nbsp;&nbsp;&nbsp;&nbsp;[7.2 仿真进阶月（第 5–8 周）](https://github.com/datawhalechina/repo-template/tree/main/docs/chapter7/chapter7_2) | 第 5–8 周仿真进阶 | ✅ |
 
 ## 贡献者名单
 
@@ -46,8 +49,8 @@ https://datawhalechina.github.io/repo-template
 ## 关注我们
 
 <div align=center>
-<p>扫描下方二维码关注公众号：Datawhale</p>
-<img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width = "180" height = "180">
+<p>扫描下方二维码关注公众号：Xbotics</p>
+<img src="assets/wechat_gongzonghao.png" width = "180" height = "180">
 </div>
 
 ## LICENSE

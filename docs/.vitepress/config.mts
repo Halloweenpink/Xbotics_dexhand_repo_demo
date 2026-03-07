@@ -3,9 +3,9 @@ import { defineConfig } from 'vitepress'
 
 // 1. 获取环境变量并判断
 // 如果环境变量 EDGEONE 等于 '1'，说明在 EdgeOne 环境，使用根路径 '/'
-// 否则默认是 GitHub Pages 环境，使用仓库子路径 '/easy-vecdb/'
+// 否则默认是 GitHub Pages 环境，使用仓库子路径 '/Xbotics_dexhand_repo_demo/'
 const isEdgeOne = process.env.EDGEONE === '1'
-const baseConfig = isEdgeOne ? '/' : '/repo-template/'
+const baseConfig = isEdgeOne ? '/' : '/Xbotics_dexhand_repo_demo/'
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -17,9 +17,9 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/datawhale-logo.png',
+    logo: '/logo.jpg',
     nav: [
-      { text: 'PDF版本下载', link: 'https://github.com/datawhalechina/repo-template/releases' },
+      { text: 'PDF版本下载', link: 'https://github.com/Halloweenpink/Xbotics_dexhand_repo_demo/releases' },
     ],
     search: {
       provider: 'local',
@@ -44,22 +44,48 @@ export default defineConfig({
       {
         items: [
           { text: '第1章：第1章的标题', link: '/chapter1/' },
-          { text: '第2章：第2章的标题', 
+          {
+            text: '第2章：第2章的标题',
             items: [
               { text: '第2.1节：第2.1节的标题', link: '/chapter2/chapter2_1' },
               { text: '第2.2节：第2.2节的标题', link: '/chapter2/chapter2_2' }
             ]
-           }
+          },
+          {
+            text: '第7章：第7章的标题',
+            items: [
+              {
+                text: '7.1 基础入门月（第 1–4 周）',
+                link: '/chapter7/chapter7_1/',
+                items: [
+                  { text: '第 1 周', link: '/chapter7/chapter7_1/chapter7_1_1' },
+                  { text: '第 2 周', link: '/chapter7/chapter7_1/chapter7_1_2' },
+                  { text: '第 3 周', link: '/chapter7/chapter7_1/chapter7_1_3' },
+                  { text: '第 4 周', link: '/chapter7/chapter7_1/chapter7_1_4' }
+                ]
+              },
+              {
+                text: '7.2 仿真进阶月（第 5–8 周）',
+                link: '/chapter7/chapter7_2/',
+                items: [
+                  { text: '第 5 周', link: '/chapter7/chapter7_2/chapter7_2_1' },
+                  { text: '第 6 周', link: '/chapter7/chapter7_2/chapter7_2_2' },
+                  { text: '第 7 周', link: '/chapter7/chapter7_2/chapter7_2_3' },
+                  { text: '第 8 周', link: '/chapter7/chapter7_2/chapter7_2_4' }
+                ]
+              }
+            ]
+          }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/datawhalechina/repo-template' }
+      { icon: 'github', link: 'https://github.com/Halloweenpink/Xbotics_dexhand_repo_demo' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/datawhalechina/repo-template/blob/main/docs/:path'
+      pattern: 'https://github.com/Halloweenpink/Xbotics_dexhand_repo_demo/blob/main/docs/:path'
     },
 
     footer: {
