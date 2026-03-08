@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "Datawhale开源教程"
+  name: "Xbotics 灵巧手教程"
   text: "AI前沿知识开源教程"
   tagline: 开始学起来吧~
   image:
     src: /learning.GIF
-    alt: Datawhale开源教程
+    alt: Xbotics 灵巧手教程
   actions:
     - theme: brand
       text: 开始学习
@@ -28,7 +28,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 const members = [
   {
     avatar: 'https://www.github.com/Sm1les.png',
-    name: 'Sm1les',
+    name: 'Andrew Cao',
     title: '项目负责人',
     links: [
       { icon: 'github', link: 'https://github.com/Sm1les' },
@@ -36,7 +36,7 @@ const members = [
   },
   {
     avatar: 'https://www.github.com/Sm1les.png',
-    name: '马里奥',
+    name: '曹祥瑞',
     title: '核心贡献者',
     links: [
       { icon: 'github', link: 'https://github.com/Sm1les' },
