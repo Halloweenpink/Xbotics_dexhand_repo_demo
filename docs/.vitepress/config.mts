@@ -9,7 +9,7 @@ const baseConfig = isEdgeOne ? '/' : '/Xbotics_dexhand_repo_demo/'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "Datawhale开源教程",
+  title: "Xbotics 灵巧手教程",
   description: "AI前沿知识开源教程",
   base: baseConfig,
   markdown: {
