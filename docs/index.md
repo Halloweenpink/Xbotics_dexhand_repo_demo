@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Xbotics 灵巧手教程"
   text: "AI前沿知识开源教程"
-  tagline: 开始学起来吧~
+  tagline: 开始学起来~
   image:
     src: /learning.GIF
     alt: Xbotics 灵巧手教程
