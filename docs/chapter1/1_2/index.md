@@ -56,10 +56,10 @@
 
 | 文档 | 说明 |
 | :--- | :--- |
-| [DexGraspNet 项目分析](reference/DexGraspNet项目分析.docx) | 项目结构与算法流程深度解析 |
-| [DexGraspNet 项目复现](reference/dexgraspnet项目复现.docx) | 代码级复现教程 |
-| [UniDexGrasp 项目分析](reference/unidexgrasp项目分析.docx) | 改进思路与核心模块拆解 |
-| [UniDexGrasp 项目复现](reference/unidexgrasp项目复现.docx) | 完整复现步骤与注意事项 |
+| [DexGraspNet 项目分析](reference/DexGraspNet-analysis.docx) | 项目结构与算法流程深度解析 |
+| [DexGraspNet 项目复现](reference/DexGraspNet-reproduction.docx) | 代码级复现教程 |
+| [UniDexGrasp 项目分析](reference/UniDexGrasp-analysis.docx) | 改进思路与核心模块拆解 |
+| [UniDexGrasp 项目复现](reference/UniDexGrasp-reproduction.docx) | 完整复现步骤与注意事项 |
 
 
 我们也保留了官方团队的教学录屏：
