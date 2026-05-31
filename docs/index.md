@@ -24,8 +24,6 @@ features:
 ---
 
 <div align="center">
-  <img src="/image-1.png" width="280" style="margin: 8px;" />
-  <img src="/image-4.png" width="280" style="margin: 8px;" />
   <!-- <img src="/image.png" width="280" style="margin: 8px;" /> -->
   <! 学员反馈>
 </div>
@@ -75,13 +73,13 @@ const members = [
 <h2 align="center">往期照片</h2>
 
 <div align="center">
-  <img src="/往期照片/5.png" width="280" style="margin: 8px;" />
-  <img src="/往期照片/01031aed6a0ea904b1ad34e36b41a43a.jpg" width="280" style="margin: 8px;" />
-  <img src="/往期照片/image.png" width="280" style="margin: 8px;" />
-  
+  <img src="/往期照片/5.png" style="width:600px; margin:8px;" />
+  <img src="/往期照片/image.png" style="width:600px; margin:8px;" />
+  <img src="/image-4.png" style="width:600px; margin:8px;" />
 </div>
-![alt text](image-4.png)
+
+
 <div align="center" style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
-  <img src="/往期照片/141a3c8d68d994861819461c86fcfeb5.jpg" height="360" style="margin: 8px;" />
-  <img src="/往期照片/513ba2d4e8a45b945a0bf9a676c68f34.jpg" height="360" style="margin: 8px;" />
+  <img src="/往期照片/141a3c8d68d994861819461c86fcfeb5.jpg" style="width:300px; margin:8px;" />
+  <img src="/往期照片/513ba2d4e8a45b945a0bf9a676c68f34.jpg" style="width:300px; margin:8px;" />
 </div>
